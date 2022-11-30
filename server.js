@@ -44,9 +44,9 @@ app.set('port', port);
 mercadoPagoRoutes(app);
 
 
-server.listen(3000, 'https://backendyoyomitlnodejs.up.railway.app' || 'localhost', function() {
-    console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')
-});
+// server.listen(3000, 'https://backendyoyomitlnodejs.up.railway.app' || 'localhost', function() {
+//     console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')
+// });
 
 
 // ERROR HANDLER
