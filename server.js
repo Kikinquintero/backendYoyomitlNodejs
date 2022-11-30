@@ -44,10 +44,13 @@ app.set('port', port);
 mercadoPagoRoutes(app);
 
 
-// server.listen(3000, 'https://backendyoyomitlnodejs.up.railway.app' || 'localhost', function() {
+// server.listen(3000, '192.168.0.103' || 'localhost', function() {
 //     console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')
 // });
 
+server.listen(port || 3000, function() {
+        console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')
+    });
 
 // ERROR HANDLER
 app.use((err, req, res, next) => {
